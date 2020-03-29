@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700|Roboto:400,400i,500,700&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/animate.css"> -->
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style1.css">
     <title>Diplom</title>
 </head>
 <body>
@@ -15,10 +16,21 @@
         <div class="center">
             <div class="header_menu">
                 <span>noman.</span>
-                <div class="burger">
-                    <i></i>
-                    <i></i>
-                    <i></i>
+                <div class="burg-all">
+                    <div class="burger" id="burger">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                    <div class="burger-menu" id="burger-menu">
+                        <ul class="list-menu-burger">
+                            <li class="item-burger-menu"><a href="#abm1" class="link-burger">About</a></li>
+                            <li class="item-burger-menu"><a href="#lw" class="link-burger">Latest Work</a></li>
+                            <li class="item-burger-menu"><a href="#hasan" class="link-burger">Hasan says</a></li>
+                            <li class="item-burger-menu"><a href="#lb" class="link-burger">Letest blog</a></li>
+                            <li class="item-burger-menu"><a href="#foot" class="link-burger">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="text">
@@ -34,7 +46,7 @@
             </div>
         </div>
     </header>
-    <section class="container abm">
+    <section class="container abm" id="abm1">
         <div class="row justify-content-between">
     <div class="item col-xl-6">
         <div class="container_text">
@@ -61,7 +73,7 @@
         </div>
         <div class="container icons">
             <div class=" row justify-conent-between">
-                <div class="item col-xl-4">
+                <div class="item col-xl-4 ">
                     <div class="icon">
                         <img src="./images/strategy.png" alt="strategy">
                         <span>strategic</span>
@@ -107,7 +119,7 @@
         </div>
     </section>
 
-    <section class="container3">
+    <section class="container3" id="lw">
         <div class="center1">
                 <div class="c3head">
                     <div>
@@ -224,7 +236,7 @@
         </div>
     </section>
 
-    <section class="container4">
+    <section class="container4" id="hasan">
         <div class="container4_bg">
             <div class="hasan1">
                 <img src="./images/hasan.png" alt="hasan">
@@ -233,20 +245,46 @@
             </div>
             <div class="hasan_text">
                 <i class="fas fa-quote-left"></i>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco.laboris nisi ut aliquip. 
-                </p>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco.laboris nisi ut aliquip. 
+                        </p>
+                      </div>
+                      <div class="carousel-item">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco.laboris nisi ut aliquip. 
+                        </p>
+                      </div>
+                      <div class="carousel-item">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco.laboris nisi ut aliquip. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
     </section>
+   
 
-    <section class="container5">
+    <section class="container5" id="lb">
         <div class="container">
             <div class="row justify-content-between">
 
-                <div class="item col-xl-4">
+                <div class="item first-blok col-xl-4 col-lg-6 col-md-12">
                     <div class="text_for_blog">
                         <h2>letest blog</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipi
@@ -280,7 +318,7 @@
                     </div>
                 </div>
 
-                <div class="item col-xl-4">
+                <div class="item col-xl-4 col-lg-6 col-md-12">
 
                     <div class="blog blog1">
                         <div class="blog1_img">
@@ -327,7 +365,7 @@
                     </div>
 
                 </div>
-                <div class="item col-xl-4">
+                <div class="item last-blok col-xl-4 col-lg-6 col-md-12">
 
                     <div class="blog blog2">
                         <div class="blog2_img">
@@ -383,7 +421,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="foot">
         <div class="section-footer-all">
             <div class="container">
                 <div class="footer-address">
@@ -450,6 +488,6 @@
               <script>
               new WOW().init();
               </script>    -->
-
+    <script src="script.js"></script>
 </body>
 </html>
