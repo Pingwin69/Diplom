@@ -260,7 +260,6 @@ header{
 }
 
 .center1{
-    width: 65%;
     margin: 0 auto;
     text-transform: uppercase;
     padding-top: 145px;
@@ -464,6 +463,15 @@ header{
     font-size: 14px;
     color: #898989;
 }
+.fon{
+    position: relative;
+}
+.fon:hover .trans-block-fon{
+    box-shadow: 0 6px 20px 0px #999;
+    transition: all .5s;
+    opacity: 1;
+    visibility: visible;
+}
 .blog{
     background-color: #f6f6ef;
     margin-top: 43px;
@@ -633,6 +641,10 @@ header{
     outline: 0;
     margin-top: 65px;
 }
+.mail-input{
+    max-height: 150px;
+    min-height: 100px;
+}
 .name-input, .subject-input{
     margin-top: 0;
     margin-bottom: 18px;
@@ -663,6 +675,7 @@ hr{
 .icons-block a:hover{
     color: teal;
 }
+
 
 
 
