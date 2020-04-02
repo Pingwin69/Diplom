@@ -299,9 +299,6 @@ header{
 }
 
 .box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -676,7 +673,19 @@ hr{
     color: teal;
 }
 
+.photo1.hide, .photo2.hide, .photo3.hide, .photo4.hide, .photo5.hide, .photo6.hide, .photo7.hide, .photo8.hide{
+    display: none;
+}
 
+.photo1.hidee, .photo2.hidee, .photo3.hidee, .photo4.hidee, .photo5.hidee, .photo6.hidee, .photo7.hidee, .photo8.hidee{
+    display: block;
+}
+.text-slider{
+    overflow: auto;
+    width: 550px;
+    height: 320px;
+    margin-bottom: 50px;
+}
 
 
 
