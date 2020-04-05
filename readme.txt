@@ -1,1 +1,1 @@
-не понял, куда применять сас, вот диплом со вторыми правками + немного анимации - https://pingwin69.github.io/Diplom/Diplom/
+последние доделки - https://pingwin69.github.io/Diplom/Diplom/
